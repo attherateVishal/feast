@@ -1,0 +1,21 @@
+{
+  "short_name": "Feast",
+  "name": "Feast",
+  "icons": [
+    {
+      "src":"icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/?utm_source=homescreen",
+  "background_color": "#AB0393",
+  "theme_color": "#AB0393",
+  "display":      "standalone",
+  "orientation":  "portrait"
+}

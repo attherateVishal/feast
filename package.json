@@ -1,0 +1,40 @@
+{
+  "name": "feast-pwa",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "auth0-js": "^9.7.3",
+    "axios": "^0.18.0",
+    "bootstrap": "^4.3.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.4.2",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-swipe-to-delete-component": "^0.4.0",
+    "react-swipeable": "^5.1.0",
+    "react-toast-notifications": "^1.3.1",
+    "styled-components": "^4.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://Franchize@bitbucket.org/feastdevelopment/feast-pwa.git"
+  },
+  "keywords": [
+    "feast",
+    "consumer",
+    "pwa"
+  ],
+  "author": "InDiCa DiGiTaL",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/feastdevelopment/feast-pwa#readme"
+}

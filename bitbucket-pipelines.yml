@@ -1,0 +1,21 @@
+# This is a sample build configuration for Other.
+# Check our guides at https://confluence.atlassian.com/x/5Q4SMw for more examples.
+# Only use spaces to indent your .yml configuration.
+# -----
+# You can specify a custom docker image from Docker Hub as your build environment.
+# image: atlassian/default-image:latest
+
+image: node:8
+clone:
+  depth: full
+pipelines:
+  branches:
+    k-pipeline:
+      - step:
+          script:
+          - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME2.git HEAD:master
+    t-pipeline:
+          - step:
+              script:
+              - git push https://heroku:$HEROKU_API_KEY@git.heroku.com/$HEROKU_APP_NAME1.git HEAD:master
+    

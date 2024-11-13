@@ -1,0 +1,170 @@
+
+/* Restaurant Info Section */
+.rest-info-container{
+   display: -webkit-box;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+	display: flex;
+   flex-direction: row;
+	height: 300px;
+   padding: .25em 0 .25em 10px;
+   margin-bottom: .75em;
+}
+
+.rest-info-container.smaller{
+   display: -webkit-box;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+	display: flex;
+   flex-direction: row;
+	height: 180px;
+   padding: .25em 0 .25em 10px;
+   margin-bottom: .75em;
+}
+
+
+.rest-info{
+   display: flex;
+   flex-direction: column;
+   align-content: space-between;
+   text-align: left;
+   padding-right: 15px;
+}
+
+/* header{
+   overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 999;
+} */
+
+@media only screen and (min-width: 360px) {
+   .rest-info h2{
+      opacity: 0.77;
+      font-family: 'Lato', sans-serif;
+      font-weight: normal;
+   	font-size: 1.25em;
+   	color: #000000;
+   	letter-spacing: -0.01px;
+   }
+
+   .rest-info h4 {
+    opacity: 0.77;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+    font-size: 1em;
+    color: #000000;
+    letter-spacing: -0.01px;
+    height: 4.3em;
+    overflow: overlay;
+ }
+}
+
+@media only screen and (max-width: 359px) {
+   .rest-info h2 {
+       opacity: .77;
+       font-family: 'Lato', sans-serif;
+       font-weight: normal;
+       font-size: 1em;
+       color: #000000;
+       letter-spacing: -0.01px;
+   }
+
+   .rest-info h4 {
+       opacity: 0.77;
+       font-family: 'Lato', sans-serif;
+       font-weight: lighter;
+       font-size: .8em;
+       color: #000000;
+       letter-spacing: -0.01px;
+       height: 4.3em;
+       overflow: overlay;
+   }
+}
+
+
+
+.rest-info-contact-container{
+	display: flex;
+	flex-direction: row;
+}
+
+.rest-info-flex-grow{
+    flex-grow: 1
+}
+
+.rest-image-container{
+   overflow: hidden;
+   margin-right: 10px;
+   border: 1px;
+   border-radius: 2px;
+}
+
+.rest-image{
+   width: 100%;
+}
+
+
+
+
+/*Menu Jargon Style & Order List Style*/
+
+.offers-container{
+   margin: .25em 0;
+}
+
+.offers-description{
+	display: flex;
+	flex-direction: row;
+}
+
+.offers-image{
+	border-radius: 2px;
+	max-width: 100%;
+   height: auto;
+}
+
+.description-container{
+	text-align: left;
+   padding-left: .5em;
+   width: auto;
+}
+
+
+.glossary-title{
+   font-family: 'Lato', sans-serif;
+   font-weight: lighter;
+   font-size: 1.25em;
+}
+
+.glossary-phonetic{
+   font-family: 'Lato', sans-serif;
+   font-weight: lighter;
+   font-size: 1em;
+   opacity: .40;
+   padding: .25em 0;
+   font-style: italic;
+}
+
+.glossary-description{
+   font-family: 'Lato', sans-serif;
+   font-weight: lighter;
+   font-size: .88em;
+   overflow-y: scroll;
+}
+
+
+
+header.smaller {
+	height: 75px;
+   border: 3px red solid;
+}
+
+
+
+/* .parent-tab-list-active-border{
+   border-bottom: 1px rgba(151,151,151,0.19) solid;
+   /* margin-top: -2px; 
+   height: 1px;
+*/

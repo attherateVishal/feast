@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Sign-up-3" transform="translate(-111.000000, -64.000000)">
+            <g id="Group-2" transform="translate(111.000000, 64.000000)">
+                <circle id="Oval-2" fill="#D8D8D8" opacity="0.371323529" cx="50" cy="50" r="50"></circle>
+                <g id="Group" opacity="0.154756434" transform="translate(33.000000, 31.000000)" fill="#000000">
+                    <path d="M26.9230769,10.1785714 C26.9230769,15.7996875 22.7038942,20.3571429 17.5,20.3571429 C12.2961058,20.3571429 8.07692308,15.7996875 8.07692308,10.1785714 C8.07692308,4.55745536 12.2961058,0 17.5,0 C22.7038942,0 26.9230769,4.55745536 26.9230769,10.1785714 Z" id="Fill-1"></path>
+                    <path d="M17.5,20.3571429 C7.83537356,20.3571429 0,28.2564787 0,38 L35,38 C35,28.2564787 27.1646264,20.3571429 17.5,20.3571429 Z" id="Fill-2"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

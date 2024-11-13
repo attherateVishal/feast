@@ -1,0 +1,556 @@
+/* RESET */
+
+html, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	/* font-size: 16px; */
+}
+#root{
+	font-size: 16px;
+}
+
+
+/* Fonts */
+@font-face {
+font-family: 'Helvetica';
+font-style: normal;
+src: local('helvetica'), url('./assets/helvetica.woff' ) format('woff');
+}
+
+@font-face {
+font-family: 'Helvetica-Light';
+font-style: normal;
+font-weight: normal;
+src: local('helvetica light'), url('./assets/helvetica-light.woff') format('woff');
+}
+
+
+body{
+	margin: 0 auto;
+}
+
+.header{
+	text-align: center;
+	width: 100%;
+	padding: 100px 0 100px 0;
+	margin: auto;
+}
+
+.wrapper{
+	position: relative;
+	width: 100%;
+	margin: auto;
+  	background: -webkit-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+  	background: -moz-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+}
+
+.middle{
+	text-align: center;
+	width: 100%;
+	background: #ffffff;
+	padding: 10px 0;
+	margin: 50px 0;
+}
+
+.middle p{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 24px;
+	color: #000000;
+	line-height: 34px;
+	padding: 0 30%;
+}
+
+.middle p span{
+	color:#e63b4d;
+}
+
+footer{
+	position: relative;
+   margin-top: -29px;
+   height: 29px;
+	background: #FFFFFF;
+	box-shadow: 0px -5px 25px 10px white;
+}
+
+
+@media only screen and (min-width: 421px) {
+.container{
+   width: 420px;
+   /* height: 100vh; */
+	overflow-x: scroll;
+ }
+}
+
+@media only screen and (max-width: 420px) {
+.container{
+   /* height: 100vh; */
+	width: 100%;
+	min-width: 315px;
+	overflow-x: scroll;
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#container-sidePage{
+	width: 80%;
+	height: 100%;
+	padding: 10% 0 0 10%;
+	background: -webkit-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+	background: -moz-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+}
+
+#container2{
+	min-height: 100vh;
+	padding: 10% 0 0 10%;
+	background: -webkit-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+	background: -moz-linear-gradient(70deg, #A60035 0%, #75009E 100%);
+}
+
+#closeMenuBTN{
+	display: flex;
+	flex-direction: row-reverse;
+	width: auto;
+	padding-right: 10%;
+}
+
+ #backButton{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+
+/* Sign up and Login Screen */
+
+div.logo{
+   text-align: center;
+   padding-top: 40px;
+}
+
+.logo{
+   height: 90px;
+   margin-bottom: 40px;
+}
+
+.loginPanel, .signUpPanel {
+   text-align: center;
+	height: 100%;
+}
+
+.line{
+   border-top: 1px solid #979797;
+   margin: 10px auto;
+   width: 80%;
+	opacity: 0.17;
+}
+
+.title h1{
+	opacity: 0.77;
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #000000;
+	letter-spacing: -0.01px;
+}
+
+.title {
+	margin: 30px 0;
+}
+
+
+.pwReq {
+	text-align: center;
+	padding: 0 60px;
+}
+
+.pwReq p{
+	font-family: 'Lato', sans-serif, Helvetica-Light;
+	font-size: 12px;
+	color: #B4B4B4;
+	letter-spacing: -0px;
+}
+
+input[class="inputField"] {
+      color: #5B5B5B;
+      text-align: center;
+      font-family: 'Lato', sans-serif, Helvetica;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: -0.004799999;
+      width: 200px;
+		border: none;
+}
+
+
+
+  input[class="inputField"]:focus{
+	color: #5B5B5B;
+	text-align: center;
+	font-family: 'Lato', sans-serif, Helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: -0.004799999;
+	width: 200px;
+	border: none;
+	outline: none;
+
+}
+
+input[type=password]{
+		color: #5B5B5B;
+		text-align: center;
+		font-family: Lato, Helvetica;
+		font-size: 12px;
+		font-weight: normal;
+		letter-spacing: -0.004799999;
+		width: 200px;
+		border: none;
+}
+
+
+input[type=submit]{
+		background: -webkit-linear-gradient(left, #BF0000 0%, #75009E 100%);
+		margin: 20px 0;
+      text-align: center;
+		font-family: Lato, Helvetica;
+		font-size: 13px;
+		color: #FFFFFF;
+		letter-spacing: -0.01px;
+      font-weight: 200;
+      border-radius: 100px;
+		border: 0px solid white;
+      width: 80%;
+      height: 40px;
+}
+
+input[type=submit]:active{
+      background: linear-gradient(-150deg, #790000 0%, #4A0263 100%);
+		margin: 20px 0;
+      text-align: center;
+		font-family: Lato, Helvetica;
+		font-size: 13px;
+		color: #FFFFFF;
+		letter-spacing: -0.01px;
+      font-weight: 200;
+      border-radius: 100px;
+		border-color: 0px solid white;
+      width: 80%;
+      height: 40px;
+}
+
+
+.altSignUp{
+	padding-bottom: 10px;
+}
+
+.altLogin, .altSignUp p {
+   text-align: center;
+   font-family: Lato, Helvetica;
+   font-size: 14px;
+   color: #595959;
+   text-align: center;
+
+}
+
+
+div.socailLogoP{
+   text-align: center;
+   margin: 20px 0;
+}
+
+.socailLogo{
+   height: 60px;
+   margin: 0 10px;
+}
+
+@media only screen and (max-width: 321px){
+	.socailLogo{
+	   height: 40px;
+	   margin: 0 10px;
+	}
+
+	div.socailLogoP{
+	   text-align: center;
+	   margin: 5px 0;
+	}
+}
+
+
+
+.bottomPic{
+
+	width: 100%;
+}
+
+
+
+/* Search Page */
+
+
+input[class="searchBar"] {
+		padding: 0 20px;
+		color: #595959;
+      text-align: left;
+      font-family: 'Lato', sans-serif, Helvetica;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: -0.004799999;
+      width: 80%;
+		height: 40px;
+		border: .01px solid white;
+		-webkit-box-shadow: 0 0 7px -1px rgba(0,0,0,0.13);
+		box-shadow: 0 0 7px -1px rgba(0,0,0,0.13);
+		border-radius: 9px;
+		-webkit-appearance: none;
+}
+
+
+
+
+input[class="searchBar"]:focus{
+	padding: 0 20px;
+	color: #595959;
+	text-align: left;
+	font-family: 'Lato', sans-serif, Helvetica;
+	font-size: 12px;
+	font-weight: normal;
+	letter-spacing: -0.004799999;
+	width: 80%;
+	height: 40px;
+	border: .01px solid white;
+	-webkit-box-shadow: 0 0 7px -1px rgba(0,0,0,0.13);
+	box-shadow: 0 0 7px -1px rgba(0,0,0,0.13);
+	border-radius: 9px;
+	-webkit-appearance: none;
+	outline: none;
+
+}
+
+
+/* Ad Component
+.ad{
+	width: 100%;
+	padding-top: 80px;
+}
+
+.ad h2{
+	font-family: Helvetica-Light;
+	font-size: 15px;
+	color: #272727;
+	letter-spacing: -0.01px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.offer{
+	text-align: center;
+	width: 100%;
+}
+
+.offer h2{
+	opacity: 0.77;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #595959;
+	letter-spacing: -0.01px;
+}
+
+.offerDetails{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	margin-top: 10px;
+	padding: 0 40px;
+	text-align: justify;
+}
+
+.offerLogo{
+	width: 44px;
+	height: 29px;
+	-webkit-box-flex: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	border-radius: 9px;
+}
+
+
+
+.offerDetails p{
+	opacity: 0.77;
+	font-family: 'Lato', sans-serif;
+	font-size: 12px;
+	color: #595959;
+	letter-spacing: -0px;
+	-webkit-box-flex: 2;
+	-ms-flex-positive: 2;
+	flex-grow: 2;
+	margin: 0 10px;
+}
+
+
+.userGallery h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #272727;
+	letter-spacing: -0.01px;
+	text-align: center;
+	margin-top: 20px;
+}
+*/
+
+/* Privacy Page */
+.tocPpP{
+	margin-top: 20px;
+	padding: 0 40px;
+	text-align: center;
+}
+
+.tocPpP p{
+	font-family: Helvetica-Light;
+	font-size: 15px;
+	color: #272727;
+	letter-spacing: -0.01px;
+}
+
+.tocPp{
+	color: #A63B90;
+	text-decoration: none;
+}
+.tocPpLogo{
+	margin-bottom: 20px;
+}
+
+
+/* Side Page */
+.userId{
+	display: flex;
+	flex-direction: row;
+}
+
+.nameVar{
+	padding: 5px 0 5px 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+.nameVar p {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: -0.01px;
+}
+
+.nameVar h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	opacity: 0.73;
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: -0.01px;
+}
+
+.options .button{
+	opacity: 0.93;
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 18px;
+	color: #FFFFFF;
+	letter-spacing: -0.01px;
+	line-height: 61px;
+	text-decoration: none;
+}
+
+/*Side Page --> Settings Page */
+
+
+
+
+
+
+
+.line2{
+   border-top: 1px solid white;
+   margin: 10px 0 10px 0px;
+   width: 85%;
+	opacity: 0.73;
+}
+
+.settings {
+	text-align: left;
+}
+
+.settings h3 {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	opacity: 0.73;
+	font-size: 13px;
+	color: #FFFFFF;
+	letter-spacing: -0.01px;
+}
+
+.settings h2 {
+	font-family: 'Lato', sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	color: #FFFFFF;
+	letter-spacing: -0.01px;
+	padding-top: 10px;
+}
+
+
+input[class="settingsInputs"] {
+      color: white;
+      text-align: left;
+      font-family: 'Lato', sans-serif, Helvetica;
+      font-size: 12px;
+      font-weight: normal;
+      letter-spacing: -0.004799999;
+      width: 200px;
+		border: none;
+		background: none;
+}
+
+  input[class="settingsInputs"]:focus {
+	color: white;
+	text-align: left;
+	font-family: 'Lato', sans-serif, Helvetica;
+	font-size: 14px;
+	font-weight: normal;
+	letter-spacing: -0.004799999;
+	width: 200px;
+	border: none;
+}

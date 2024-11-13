@@ -1,0 +1,54 @@
+.order-list-details-container{
+   text-align: left;
+   margin-left: 1em;
+   padding: 1em 0;
+}
+
+h2{
+   font-family: 'Lato', sans-serif;
+   font-weight: normal;
+   font-size: 1.25em;
+}
+
+h3{
+   font-family: 'Lato', sans-serif;
+   font-weight: lighter;
+   font-size: 1em;
+   padding: .25em 0;
+}
+
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: .88em;
+    padding: .25em 0;
+    opacity: 0.75;
+}
+
+p{
+   font-family: 'Lato', sans-serif;
+   font-weight: lighter;
+   font-size: .88em;
+   overflow-y: scroll;
+}
+
+.order-list-details-price-container{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   border: 1px solid #EAEAEA;
+   width: 46px;
+
+}
+
+.order-list-details-quantity-container{
+   width: 100%;
+   padding: .15em .25em 0 .25em;
+}
+
+.order-list-details-quantity-edit{
+   font-size: 1.5em;
+   color: #75009E;
+   padding: 0 0;
+}
